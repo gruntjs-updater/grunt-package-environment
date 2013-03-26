@@ -1,7 +1,7 @@
 {
   "name": "grunt-package-environment",
   "description": "Swap package.json depending on specified environment",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/recipher/grunt-package-environment",
   "author": {
     "name": "Johnny Hall",
@@ -24,6 +24,9 @@
   "engines": {
     "node": ">= 0.8.0"
   },
+  "dependencies": {
+    "underscore": "~1.4.4"
+  },
   "devDependencies": {
     "grunt": "~0.4.1"
   },
@@ -31,6 +34,7 @@
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "gruntplugin", "default"
+    "gruntplugin",
+    "default"
   ]
 }
